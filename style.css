@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  position: fixed;
+}
+
+.header-elements {
+  margin: 15px;
+  margin-left: 10px;
+}
