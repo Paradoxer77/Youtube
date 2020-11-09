@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: Roboto;
 }
 
 header {
@@ -8,7 +9,17 @@ header {
   position: fixed;
 }
 
-.header-elements {
-  margin: 15px;
-  margin-left: 10px;
+#search-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+#sign-in-button {
+  text-align: center;
+  background: none;
+  border: 1px solid rgb(62, 166, 255);
+  border-radius: 2px;
+  color: rgb(62, 166, 255);
 }
