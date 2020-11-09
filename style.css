@@ -7,19 +7,70 @@ header {
   background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   position: fixed;
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  align-items: space-evenly;
+}
+
+#section-1 {
+  margin: 15px;
+}
+
+#Youtube-logo {
+  margin-left: 20px;
+}
+
+#search {
+  display: flex;
+  margin-top: 10px;
 }
 
 #search-bar {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  border: none;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
+  width: 80%;
+  height: 18px;
+  border: 1px solid rgb(65, 64, 64);
+  font-size: 15px;
+}
+
+#search-button {
+  background-color: rgb(65, 64, 64);
+  width: 50px;
+  height: 30px;
+  margin-left: 0px;
+
+}
+
+#search-image {
+  margin: 3px;
+  margin-left: 10px;
+}
+
+#other-buttons {
+  display: flex;
+  height: 23px;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  align-items: center;
 }
 
 #sign-in-button {
-  text-align: center;
+  display: flex;
   background: none;
-  border: 1px solid rgb(62, 166, 255);
+  border: 2px solid rgb(62, 166, 255);
   border-radius: 2px;
   color: rgb(62, 166, 255);
+  height: 40px;
+  width: 110px;
+}
+
+#sign-in-icon {
+  height: 25px;
+  margin-top: 5px;
+}
+
+#sign-in {
+  margin: 9px;
 }
