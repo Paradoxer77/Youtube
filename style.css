@@ -281,9 +281,19 @@ a {
 
 #recommended {
   margin-top: 30px;
+  width: 430px;
+}
+
+.recommended-video {
+  margin-right: 10px;
 }
 
 .video-title {
   color: white;
   font-size: 14px;
+}
+
+.video-info {
+  color: rgb(181, 181, 181);
+  font-size: 13px;
 }
