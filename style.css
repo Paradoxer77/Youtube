@@ -223,3 +223,56 @@ a {
 #comment-separator {
   margin-left: 140px;
 }
+
+.profile {
+  width: 45px;
+  height: 45px;
+}
+
+#comment-head {
+  margin: 20px;
+  margin-left: 15px;
+}
+
+#name {
+  color: white;
+  font-size: 14px;
+}
+
+#time { 
+  color: lightgray;
+  font-size: 12px;
+}
+
+#comment-text-container {
+  margin-left: 150px;
+  margin-top: -15px;
+}
+
+#comment-text {
+  color: white;
+  font-size: 13px;
+}
+
+.small {
+  width: 15px;
+  height: 15px;
+}
+
+#comment-action {
+  margin: 150px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.comment-action-text {
+  color: lightgray;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 30px;
+  margin-top: 3px;
+}
+
+.reply {
+  margin-left: 30px;
+}
